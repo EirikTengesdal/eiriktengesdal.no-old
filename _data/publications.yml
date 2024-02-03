@@ -1,7 +1,7 @@
 main:
 
   - title: Argument placement in Norwegian
-    authors: [Lundquist, Björn](https://en.uit.no/ansatte/person?p_document_id=43531&p_dimension_id=210121) & <strong>Eirik Tengesdal</strong>
+    authors: Lundquist, Björn & <strong>Eirik Tengesdal</strong>
     conference_short: NALS
     conference: Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal 7(1): 31–72, 2022.
     pdf: https://doi.org/10.5617/nals.10099
