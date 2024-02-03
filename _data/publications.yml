@@ -4,7 +4,8 @@ main:
     authors: Lundquist, Björn & <strong>Eirik Tengesdal</strong>
     conference_short: NALS
     conference: Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal Volume 7, Number 1, pp. 31–72, 2022.
-    pdf: https://doi.org/10.5617/nals.10099
+    doi: https://doi.org/10.5617/nals.10099
+    pdf: ./assets/files/NorwegianArgPlacement_final_17.01.23.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/Lundquist&Tengesdal2022.png
