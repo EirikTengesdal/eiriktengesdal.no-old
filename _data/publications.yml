@@ -22,7 +22,6 @@ main:
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/Larsson&Tengesdal_2022.jpg
-    #notes: Early Accept
 
   - title: Trykkplasseringa i latinske lånord og partikkelverb i tre norske dialektområde #[Stress Placement in Latin--Greek Loanwords and Particle Verbs in Three Norwegian Dialect Areas]
     authors: <strong>Tengesdal, Eirik</strong> & Björn Lundquist
@@ -35,5 +34,4 @@ main:
     pdf: ./assets/files/07+Tengesdal+og+Lundquist.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/Tengesdal&Lundquist2021.jpg
-    #notes: Early Accept
+    image: ./assets/img/Tengesdal&Lundquist_2021.jpg
