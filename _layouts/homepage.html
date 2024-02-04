@@ -122,12 +122,13 @@
 
       <br>
 
-      {% if site.enable_footnote %}
-      <p><small>Website powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+      <!--{% if site.enable_footnote %}
+      <p><small>Website powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>-->
 
       </section>
       <footer>
-        
+      {% if site.enable_footnote %}
+      <p><small>Website powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
