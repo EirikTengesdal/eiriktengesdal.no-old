@@ -27,6 +27,6 @@ In addition, I am currently a PhD Student at UiO specialising in Scandinavian li
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/theses.md %}
+<!---{% include_relative _includes/theses.md %}
 
-<!--- {% include_relative _includes/services.md %} --->
+{% include_relative _includes/services.md %} --->
