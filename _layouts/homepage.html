@@ -130,9 +130,10 @@
       </div>
       {% endif %}
 
+      {% if site.clustrmaps_id %}
       <br>
       <div style="width:100px; pointer-events: none;">
-      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=rr9HDa8eKadRcKwZZmmQ7UyeS7TghzmfrEZLZCHNdh8"></script>
+      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d={{ site.clustrmaps_id }}"></script>
       </div>
 
       </section>
