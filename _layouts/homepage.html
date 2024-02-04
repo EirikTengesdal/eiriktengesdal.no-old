@@ -65,7 +65,8 @@
         <br>
         {% endif %}
         {% if site.email %}
-        <email>{{ site.email }}</email>
+        <a href="mailto:{{ site.email }}"><email>{{ site.email }}</email></a>
+        <br>
         {% endif %}
         {% if site.position2 %}
         <position style="font-size:1.10rem;">{{ site.position2 }}</position>
@@ -77,7 +78,7 @@
         {% endif %}
         {% if site.email2 %}
         <br>
-        <email>{{ site.email2 }}</email>
+        <a href="mailto:{{ site.email2 }}"><email>{{ site.email2 }}</email></a>
         {% endif %}
 
         <br>
