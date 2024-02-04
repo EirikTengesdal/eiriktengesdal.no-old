@@ -57,3 +57,14 @@ main:
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/Brinkerhoff&Tengesdal_2021.jpg
+
+  - title: Nordic Word Order Database: Motivations, Methods, Material and Infrastructure
+    authors: Lundquist, Björn, Ida Larsson, Maud Westendorp, <strong>Eirik Tengesdal</strong> & Anders Nøklestad
+    year: 2019
+    journal_short: NALS
+    journal: Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal Vol. 4, No. 1, 1–33.
+    doi: https://doi.org/10.5617/nals.7529
+    pdf: ./assets/files/khagen,+NALS_VOL4_1.pdf
+    #code: https://github.com/MrGiovanni/ContinualLearning
+    #bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/LundquistEtAl_2019.jpg
