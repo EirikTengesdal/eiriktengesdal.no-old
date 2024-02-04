@@ -8,7 +8,7 @@ main:
     #doi: https://doi.org/10.5617/nals.10099
     #pdf: ./assets/files/NorwegianArgPlacement_final_17.01.23.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
-    #bibtex: https://bib.yliu.me/MICCAI23.txt
+    bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/grammatical-gender.jpg
     notes: Accepted for publication
 
