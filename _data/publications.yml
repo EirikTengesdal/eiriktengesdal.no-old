@@ -46,3 +46,14 @@ main:
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/GarmannEtAl_2021.jpg
+
+  - title: MATCHING Phrases in Norwegian Object Shift
+    authors: Brinkerhoff, Mykel Loren & <strong>Eirik Tengesdal</strong>
+    year: 2021
+    journal_short: AMP
+    journal: In Ryan Bennett, Richard Bibbs, Mykel L. Brinkerhoff, Max J. Kaplan, Stephanie Rich, Amanda Rysling, Nicholas Van Handel & Maya Wax Cavallaro (eds.), Supplemental Proceedings of the 2020 Annual Meeting on Phonology, 1–10.
+    doi: https://doi.org/10.3765/amp.v9i0.4921
+    pdf: ./assets/files/lsa_admin,+BrinkerhoffTengesdalAMP2020Proceedings.pdf
+    #code: https://github.com/MrGiovanni/ContinualLearning
+    #bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/Brinkerhoff&Tengesdal_2021.jpg
