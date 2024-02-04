@@ -20,7 +20,7 @@ main:
     doi: https://doi.org/10.5617/nals.10099
     pdf: ./assets/files/NorwegianArgPlacement_final_17.01.23.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
-    #bibtex: https://bib.yliu.me/MICCAI23.txt
+    bibtex: ./assets/files/LundquistTengesdal_2022_NALSNorwegian.bib
     image: ./assets/img/Lundquist&Tengesdal_2022.png
     #notes: Early Accept
 
