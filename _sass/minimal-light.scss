@@ -7,14 +7,14 @@
   height:2.4rem;
   width:2.4rem;
   background-color:transparent;
-  color:#043361!important;
+  color:#312478!important; /*#043361*/
   border-radius:100%;
   text-align:center;
   font-size:1.15rem;
   line-height:2.5rem;
   margin-right:1rem}
 
-@media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}
+@media (prefers-color-scheme: dark) { .social-icons a {color: #9b3ef0 !important; }}/*#3eb7f0*/
 
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
@@ -230,18 +230,18 @@ papertitle {
 
 h3, h4, h5, h6 {
   font-weight: 600;
-  color:#043361;
+  color:#312478;/*#043361;*/
   margin:0 0 20px;
 }
 
 h1 {
   font-weight: 500;
-  color:#043361;
+  color:#312478;/*#043361;*/
   margin:0 0 20px;
 }
 
 h2 {
-  color:#043361;
+  color:#312478;/*#043361;*/
   font-weight: 500;
   margin:2px 0px 15px;
   font-size: 157%;
@@ -249,11 +249,11 @@ h2 {
 
 @media (prefers-color-scheme: dark) {
   h1, h3, h4, h5, h6 {
-    color:rgb(62, 183, 240);
+    color:rgb(141, 147, 210)/*62, 183, 240);*/
   }
 
   h2 {
-    color:rgb(62, 183, 240);
+    color:rgb(141, 147, 210)/*62, 183, 240);*/
   }
 }
 
@@ -270,17 +270,17 @@ h1 {
 }
 
 a {
-  color:#39c;
+  color:#7a87f0;/*#39c;*/
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#4859b2;/*#069;*/
 }
 
 @media (prefers-color-scheme: dark) {
   a {
-    color:rgb(62, 183, 240);
+    color:rgb(141, 147, 210)/*62, 183, 240);*/
   }
 }
 
@@ -343,11 +343,11 @@ th {
 
 @media (prefers-color-scheme: dark) {
   th {
-    color:rgb(62, 183, 240);
+    color:rgb(141, 147, 210)/*62, 183, 240);*/
   }
 
   dt {
-    color:rgb(62, 183, 240);
+    color:rgb(141, 147, 210)/*62, 183, 240);*/
   }
 }
 
