@@ -21,7 +21,7 @@
       <div class="author">{{ link.authors }}</div>
       {% if link.editors %} 
       <div class="editors journal">{{ link.editors }}, <em>{{ link.journal }}</em></div>
-      {% endif %}
+      {% else %}
       <div class="journal"><em>{{ link.journal }}</em>
       </div>
     <div class="links">
