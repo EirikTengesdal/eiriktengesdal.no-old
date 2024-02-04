@@ -21,11 +21,14 @@
       <div class="journal"><em>{{ link.journal }}</em>
       </div>
     <div class="links">
-      {% if link.pdf %} 
+      {% if link.pdf %}
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       {% endif %}
       {% if link.url %} 
       <a href="{{ link.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">URL</a>
+      {% endif %}
+      {% if link.duo %}
+      <a href="{{ link.duo }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">DUO Archive</a>
       {% endif %}
       {% if link.doi %} 
       <a href="{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">DOI</a>
