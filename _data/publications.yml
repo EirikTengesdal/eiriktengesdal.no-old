@@ -4,33 +4,35 @@ main:
     authors: Lundquist, Björn & <strong>Eirik Tengesdal</strong>
     year: 2022
     conference_short: NALS
-    conference: Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal Volume 7, Number 1, pp. 31–72.
+    conference: Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal Vol. 7, No. 1, 31–72.
     doi: https://doi.org/10.5617/nals.10099
     pdf: ./assets/files/NorwegianArgPlacement_final_17.01.23.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/Lundquist&Tengesdal2022.png
+    image: ./assets/img/Lundquist&Tengesdal_2022.png
     #notes: Early Accept
 
   - title: Argument placement in Danish
     authors: Larsson, Ida & <strong>Eirik Tengesdal</strong>
     year: 2022
     conference_short: NALS
-    conference: Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal Volume 7, Number 1, pp. 109–134.
+    conference: Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal Vol. 7, No. 1, 109–134.
     doi: https://doi.org/10.5617/nals.10102
     pdf: ./assets/files/Argument+placement+in+Danish+FINAL+16jan23.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/Larsson&Tengesdal2022.jpg
+    image: ./assets/img/Larsson&Tengesdal_2022.jpg
     #notes: Early Accept
 
-  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-  #   conference_short: CVPR
-  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
-  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   notes: Oral Presentation
-  #   image: ./assets/img/teaser_example.png
+  - title: Trykkplasseringa i latinske lånord og partikkelverb i tre norske dialektområde [Stress Placement in Latin--Greek Loanwords and Particle Verbs in Three Norwegian Dialect Areas]
+    authors: <strong>Tengesdal, Eirik</strong> & Björn Lundquist
+    year: 2022
+    conference_short: LIA
+    conference: In Kristin Hagen, Gjert Kristoffersen, Øystein A. Vangsnes & Tor A. Åfarli (eds.), <i>Språk i arkiva. Ny forsking om eldre talemål frå LIA-prosjektet</i>, 129--154.
+    anthology: https://omp.novus.no/index.php/novus/catalog/book/19
+    url: http://omp.novus.no/index.php/novus/catalog/view/19/29/1042
+    pdf: ./assets/files/07+Tengesdal+og+Lundquist.pdf
+    #code: https://github.com/MrGiovanni/ContinualLearning
+    #bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/Tengesdal&Lunqduist2021.jpg
+    #notes: Early Accept
