@@ -27,8 +27,8 @@ main:
     authors: <strong>Tengesdal, Eirik</strong> & Björn Lundquist
     year: 2021
     journal_short: LIA
-    editors: In Kristin Hagen, Gjert Kristoffersen, Øystein A. Vangsnes & Tor A. Åfarli (eds.)
-    journal: Språk i arkiva. Ny forsking om eldre talemål frå LIA-prosjektet, 129–154.
+    #editors: In Kristin Hagen, Gjert Kristoffersen, Øystein A. Vangsnes & Tor A. Åfarli (eds.)
+    journal: In Kristin Hagen, Gjert Kristoffersen, Øystein A. Vangsnes & Tor A. Åfarli (eds.), Språk i arkiva. Ny forsking om eldre talemål frå LIA-prosjektet, 129–154.
     anthology: https://omp.novus.no/index.php/novus/catalog/book/19
     url: http://omp.novus.no/index.php/novus/catalog/view/19/29/1042
     pdf: ./assets/files/07+Tengesdal+og+Lundquist.pdf
