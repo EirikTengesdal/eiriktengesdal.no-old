@@ -31,7 +31,7 @@
       <a href="{{ link.duo }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="far fa-database"></i> DUO Archive</a>
       {% endif %}
       {% if link.doi %} 
-      <a href="{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{% a_svg doi %} DOI</a>
+      <a href="{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai doi" style="font-size:1.2rem"></i> DOI</a>
       {% endif %}
       {% if link.anthology %} 
       <a href="{{ link.anthology }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Anthology</a>
