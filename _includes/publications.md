@@ -7,7 +7,7 @@
   // Check if dark mode is enabled
   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     // Change the src of the img tag to the dark mode version of the SVG
-    document.getElementById('bibtex-logo').src = 'assets/img/BibTeX_logo.svg';
+    document.getElementById('bibtex-logo-light').src = 'assets/img/BibTeX_logo-dark.svg';
   }
 </script>
 
@@ -52,7 +52,7 @@
       {% endif %}
       {% if link.bibtex %}
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
-        <img src="assets/img/BibTeX_logo-light.svg" style="width: auto; height: 12px;"></a>
+        <img src="assets/img/BibTeX_logo-light.svg" style="width: auto; height: 12px;"> BibTeX</a>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
