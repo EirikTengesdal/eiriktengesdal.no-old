@@ -9,7 +9,7 @@ main:
     #pdf: ./assets/files/NorwegianArgPlacement_final_17.01.23.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
-    #image: ./assets/img/Lundquist&Tengesdal_2022.png
+    image: ./assets/img/grammatical-gender.jpg
     notes: Accepted for publication
 
   - title: Argument placement in Norwegian
