@@ -4,14 +4,22 @@
 <ol class="bibliography">
 
 <script>
-  // Check if dark mode is enabled
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    // Change the src of the img tag to the dark mode version of the SVG
-    document.querySelector('.bibtex-logo').src = 'assets/img/BibTeX_logo_dark.svg';
-  } else {
-    // Change the src of the img tag to the light mode version of the SVG
-    document.querySelector('.bibtex-logo').src = 'assets/img/BibTeX_logo-light.svg';
+  // Function to update the SVG color
+  function updateSvgColor() {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      // Change the src of the img tag to the dark mode version of the SVG
+      document.querySelector('.bibtex-logo').src = 'assets/img/BibTeX_logo-dark.svg';
+    } else {
+      // Change the src of the img tag to the light mode version of the SVG
+      document.querySelector('.bibtex-logo').src = 'assets/img/BibTeX_logo-light.svg';
+    }
   }
+
+  // Update the SVG color when the page is first loaded
+  updateSvgColor();
+
+  // Listen for changes to the preferred color scheme and update the SVG color
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateSvgColor);
 </script>
 
 {% for link in site.data.publications.main %}
