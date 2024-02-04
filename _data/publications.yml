@@ -21,7 +21,7 @@ main:
     pdf: ./assets/files/Argument+placement+in+Danish+FINAL+16jan23.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/Larsson&Tengesdal2022.png
+    image: ./assets/img/Larsson&Tengesdal2022.jpg
     #notes: Early Accept
 
   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
