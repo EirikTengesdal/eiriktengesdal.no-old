@@ -26,6 +26,16 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 @media print, screen and (min-width: 480px) {.col-sm-9 {width: 100%;}}
 
+:root {
+  --bibtex-logo: url('assets/img/BibTeX_logo-light.svg');
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bibtex-logo: url('assets/img/BibTeX_logo-dark.svg');
+  }
+}
+
 .publications { margin-top: 2rem; }
 
 .publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
@@ -60,12 +70,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .links a.btn { color: #000000; border: 1px solid #000000; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
 
-.publications ol.bibliography li .links a.btn img {
-  display: none;
-}
-
 .publications ol.bibliography li .links a.btn {
-  background-image: url('assets/img/BibTeX_logo-light.svg');
+  background-image: var(--bibtex-logo);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -74,12 +80,6 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li .links a.btn { color: #FFFFFF; border: 1px solid #FFFFFF; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
 
   }
-
-@media (prefers-color-scheme: dark) {
-  .publications ol.bibliography li .links a.btn {
-    background-image: url('assets/img/BibTeX_logo-dark.svg');
-  }
-}
   
 .publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
 
