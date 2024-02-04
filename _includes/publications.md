@@ -3,27 +3,6 @@
 <div class="publications">
 <ol class="bibliography">
 
-<script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-    // Function to update the SVG color
-    function updateSvgColor() {
-      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        // Change the src of the img tag to the dark mode version of the SVG
-        document.querySelector('.bibtex-logo').src = 'assets/img/BibTeX_logo-dark.svg';
-      } else {
-        // Change the src of the img tag to the light mode version of the SVG
-        document.querySelector('.bibtex-logo').src = 'assets/img/BibTeX_logo-light.svg';
-      }
-    }
-
-    // Update the SVG color when the page is first loaded
-    updateSvgColor();
-
-    // Listen for changes to the preferred color scheme and update the SVG color
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateSvgColor);
-  });
-</script>
-
 {% for link in site.data.publications.main %}
 
 <li>
@@ -64,8 +43,7 @@
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fa fa-link"></i> Project Page</a>
       {% endif %}
       {% if link.bibtex %}
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
-        <img class="bibtex-logo" src="assets/img/BibTeX_logo-light.svg" style="width: auto; height: 12px;"> BibTeX</a>
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0 BibTeX" role="button" target="_blank" style="font-size:12px;"> BibTeX</a>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
