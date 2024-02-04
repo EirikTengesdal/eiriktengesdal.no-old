@@ -28,11 +28,11 @@ main:
     authors: <strong>Tengesdal, Eirik</strong> & Björn Lundquist
     year: 2022
     conference_short: LIA
-    conference: In Kristin Hagen, Gjert Kristoffersen, Øystein A. Vangsnes & Tor A. Åfarli (eds.), <i>Språk i arkiva. Ny forsking om eldre talemål frå LIA-prosjektet</i>, 129--154.
+    conference: In Kristin Hagen, Gjert Kristoffersen, Øystein A. Vangsnes & Tor A. Åfarli (eds.), <i>Språk i arkiva. Ny forsking om eldre talemål frå LIA-prosjektet</i>, 129–154.
     anthology: https://omp.novus.no/index.php/novus/catalog/book/19
     url: http://omp.novus.no/index.php/novus/catalog/view/19/29/1042
     pdf: ./assets/files/07+Tengesdal+og+Lundquist.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/Tengesdal&Lunqduist2021.jpg
+    image: ./assets/img/Tengesdal&Lundquist2021.jpg
     #notes: Early Accept
