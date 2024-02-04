@@ -19,7 +19,7 @@
       <div class="title year"><a href="{{ link.pdf }}">{{ link.title }}</a>, {{ link.year }}</div>
       <!--<div class="year">{{ link.year }}</div>-->
       <div class="author">{{ link.authors }}</div>
-      <div class="editors">{{ link.editors }},</div>
+      <!--<div class="editors">{{ link.editors }},</div>-->
       <div class="journal"><em>{{ link.journal }}</em>
     <div class="links">
       {% if link.anthology %} 
