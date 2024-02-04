@@ -47,11 +47,11 @@ footnote_link: https://github.com/EirikTengesdal/EirikTengesdal.github.io
 
 # Google Analytics ID
 # Please replace with your own ID, or remove this if you don't use Google Analytics
-google_analytics: G-BKRLNGX7N7
+# google_analytics: G-BKRLNGX7N7
 
 # ClustrMaps Analytics
 # Please replace with your own ClustrMaps ID, or remove this if you don't use GlustrMaps Analytics
-clustrmaps_id: CJD8XwsJhSyQ6sbsU-rr9HDa8eKadRcKwZZmmQ7UyeS7TghzmfrEZLZCHNdh8
+# clustrmaps_id: CJD8XwsJhSyQ6sbsU-rr9HDa8eKadRcKwZZmmQ7UyeS7TghzmfrEZLZCHNdh8
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
