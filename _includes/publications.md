@@ -22,7 +22,7 @@
       {% if link.editors %} 
       <div class="editors journal">{{ link.editors }}, <em>{{ link.journal }}</em></div>
       {% endif %}
-      {% ifnot link.editors %} 
+      {% unless link.editors %} 
       <div class="journal"><em>{{ link.journal }}</em>
       {% endif %} 
       </div>
