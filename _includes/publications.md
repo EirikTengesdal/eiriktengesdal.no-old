@@ -43,7 +43,7 @@
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fa fa-link"></i> Project Page</a>
       {% endif %}
       {% if link.bibtex %}
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><svg src="assets/img/BibTeX_logo.svg" alt="BibTeX logo"></a>
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><img src=".assets/img/2560px-BibTeX_logo.svg.png"></img></a>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
