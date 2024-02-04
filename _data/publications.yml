@@ -4,7 +4,7 @@ main:
     authors: Lundquist, Björn & <strong>Eirik Tengesdal</strong>
     year: 2022
     journal_short: NALS
-    journal: Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal Vol. 7, No. 1, 31–72.
+    journal:  "Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal 7(1): 31–72."
     doi: https://doi.org/10.5617/nals.10099
     pdf: ./assets/files/NorwegianArgPlacement_final_17.01.23.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
@@ -16,7 +16,7 @@ main:
     authors: Larsson, Ida & <strong>Eirik Tengesdal</strong>
     year: 2022
     journal_short: NALS
-    journal: Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal Vol. 7, No. 1, 109–134.
+    journal: "Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal 7(1): 109–134."
     doi: https://doi.org/10.5617/nals.10102
     pdf: ./assets/files/Argument+placement+in+Danish+FINAL+16jan23.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
@@ -40,7 +40,7 @@ main:
     authors: Garmann, Nina Gram, Pernille Hansen, Hanne Gram Simonsen, Elisabeth Holm, <strong>Eirik Tengesdal</strong>, Brechtje Post & Elinor Payne
     year: 2021
     journal_short: Front. Psychol.
-    journal: Frontiers in Psychology Vol. 12:688002, 1–13.
+    journal: "Frontiers in Psychology 12:688002: 1–13."
     doi: https://doi.org/10.3389/fpsyg.2021.688002
     pdf: ./assets/files/fpsyg-12-688002.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
@@ -51,7 +51,7 @@ main:
     authors: Brinkerhoff, Mykel Loren & <strong>Eirik Tengesdal</strong>
     year: 2021
     journal_short: AMP
-    journal: In Ryan Bennett, Richard Bibbs, Mykel L. Brinkerhoff, Max J. Kaplan, Stephanie Rich, Amanda Rysling, Nicholas Van Handel & Maya Wax Cavallaro (eds.), Supplemental Proceedings of the 2020 Annual Meeting on Phonology, 1–10.
+    journal: "In Ryan Bennett, Richard Bibbs, Mykel L. Brinkerhoff, Max J. Kaplan, Stephanie Rich, Amanda Rysling, Nicholas Van Handel & Maya Wax Cavallaro (eds.), Supplemental Proceedings of the 2020 Annual Meeting on Phonology: 1–10."
     doi: https://doi.org/10.3765/amp.v9i0.4921
     pdf: ./assets/files/lsa_admin,+BrinkerhoffTengesdalAMP2020Proceedings.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
@@ -62,7 +62,7 @@ main:
     authors: Lundquist, Björn, Ida Larsson, Maud Westendorp, <strong>Eirik Tengesdal</strong> & Anders Nøklestad
     year: 2019
     journal_short: NALS
-    journal: Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal Vol. 4, No. 1, 1–33.
+    journal: "Nordic Atlas of Language Structures <strong>(NALS)</strong> Journal 4(1): 1–33."
     doi: https://doi.org/10.5617/nals.7529
     pdf: ./assets/files/khagen,+NALS_VOL4_1.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
