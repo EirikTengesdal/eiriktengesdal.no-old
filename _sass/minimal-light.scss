@@ -7,14 +7,14 @@
   height:2.4rem;
   width:2.4rem;
   background-color:transparent;
-  color:#312478!important; /*#043361*/
+  color:#043361!important;
   border-radius:100%;
   text-align:center;
   font-size:1.15rem;
   line-height:2.5rem;
   margin-right:1rem}
 
-@media (prefers-color-scheme: dark) { .social-icons a {color: #312478 !important; }}/*#3eb7f0*/
+@media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}
 
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
@@ -92,13 +92,13 @@
   margin:-1.8rem}
 
 .twitter span{
-  background-color:#aa87de}/*#4099ff}*/
+  background-color:#4099ff}
 
 .facebook span{
-  background-color:#997ac3}/*#4286f4}*/
+  background-color:#4286f4}
 
 .linkedin span{
-  background-color:#506acf}/*#0077B5}*/
+  background-color:#0077B5}
 
 .github span{
   background-color:#000}
@@ -124,16 +124,16 @@ email {
   z-index:10}
 
 .icon-button .icon-twitter{
-  color:#aa87de}/*#4099ff}*/
+  color:#4099ff}
 
 .icon-button .icon-facebook{
-  color:#997ac3}/*#4286f4}*/
+  color:#4286f4}
 
 .icon-button .icon-github{
   color:#000;}
 
 .icon-button .icon-linkedin{
-  color:#506acf}/*#0077B5}*/
+  color:#0077B5}
 
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
@@ -230,18 +230,18 @@ papertitle {
 
 h3, h4, h5, h6 {
   font-weight: 600;
-  color:#312478;/*#043361;*/
+  color:#043361;
   margin:0 0 20px;
 }
 
 h1 {
   font-weight: 500;
-  color:#312478;/*#043361;*/
+  color:#043361;
   margin:0 0 20px;
 }
 
 h2 {
-  color:#312478;/*#043361;*/
+  color:#043361;
   font-weight: 500;
   margin:2px 0px 15px;
   font-size: 157%;
@@ -249,11 +249,11 @@ h2 {
 
 @media (prefers-color-scheme: dark) {
   h1, h3, h4, h5, h6 {
-    color:rgb(49, 36, 120)/*62, 183, 240);*/
+    color:rgb(62, 183, 240);
   }
 
   h2 {
-    color:rgb(49, 36, 120)/*62, 183, 240);*/
+    color:rgb(62, 183, 240);
   }
 }
 
@@ -270,17 +270,17 @@ h1 {
 }
 
 a {
-  color:#7a87f0;/*#39c;*/
+  color:#39c;
   text-decoration:none;
 }
 
 a:hover {
-  color:#4859b2;/*#069;*/
+  color:#069;
 }
 
 @media (prefers-color-scheme: dark) {
   a {
-    color:rgb(49, 36, 120)/*62, 183, 240);*/
+    color:rgb(62, 183, 240);
   }
 }
 
@@ -343,11 +343,11 @@ th {
 
 @media (prefers-color-scheme: dark) {
   th {
-    color:rgb(49, 36, 120)/*62, 183, 240);*/
+    color:rgb(62, 183, 240);
   }
 
   dt {
-    color:rgb(49, 36, 120)/*62, 183, 240);*/
+    color:rgb(62, 183, 240);
   }
 }
 
