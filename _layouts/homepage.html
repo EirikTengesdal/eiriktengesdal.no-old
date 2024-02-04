@@ -35,20 +35,38 @@
     <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
-
-    {% if site.google_analytics %}
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', '{{ site.google_analytics }}');
-    </script>
-    {% endif %}
   </head>
   <body>
+    <!-- Cookie consent banner -->
+    <div id="cookie-banner">
+      <p>We use cookies to analyze our traffic. By clicking "Accept", you consent to the use of cookies.</p>
+      <button onclick="acceptCookies()">Accept</button>
+    </div>
+    <!-- Google Analytics -->
+    <script>
+      function acceptCookies() {
+        // Hide the cookie banner
+        document.getElementById('cookie-banner').style.display = 'none';
+
+        // Load Google Analytics
+        var script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}';
+        script.async = true;
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+
+        // Load ClustrMaps
+        var script = document.createElement('script');
+        script.src = '//clustrmaps.com/globe.js?d={{ site.clustrmaps_id }}';
+        script.id = 'clstr_globe';
+        document.body.appendChild(script);
+      }
+    </script>
+
     <div class="wrapper">
       <header>
         
