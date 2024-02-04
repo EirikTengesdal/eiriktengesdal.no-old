@@ -1,5 +1,8 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+<script>new Clipboard('.copy_btn');</script>
+
 <div class="publications">
 <ol class="bibliography">
 
@@ -43,7 +46,30 @@
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fa fa-link"></i> Project Page</a>
       {% endif %}
       {% if link.bibtex %}
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="icon-BibTeX"></i> BibTeX</a>
+      <!-- Button trigger modal -->
+      <a href="#" class="btn btn-sm z-depth-0" role="button" style="font-size:12px;" data-toggle="modal" data-target="#bibtexModal"><i class="icon-BibTeX"></i> BibTeX</a>
+      <!-- Modal -->
+      <div class="modal fade" id="bibtexModal" tabindex="-1" role="dialog" aria-labelledby="bibtexModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="bibtexModalLabel">BibTeX Code</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <pre id="bibtexCode">{{ link.bibtex }}</pre>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary copy_btn" data-clipboard-target="#bibtexCode">
+                Copy to Clipboard
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
