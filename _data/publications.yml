@@ -1,5 +1,17 @@
 main:
 
+  - title: Cross-linguistic effects in grammatical gender assignment and predictive processing in Greek, Russian, and Turkish speakers of Norwegian as a second language
+    authors: Johannessen, Janne Bondi, Björn Lundquist, Yulia Rodina, <strong>Eirik Tengesdal</strong>, Nina Hagen Kaldhol, Emel Türker & Valantis Fyndanis
+    year: "To appear"
+    journal_short: SLR
+    journal:  Second Language Research
+    #doi: https://doi.org/10.5617/nals.10099
+    #pdf: ./assets/files/NorwegianArgPlacement_final_17.01.23.pdf
+    #code: https://github.com/MrGiovanni/ContinualLearning
+    #bibtex: https://bib.yliu.me/MICCAI23.txt
+    #image: ./assets/img/Lundquist&Tengesdal_2022.png
+    notes: Accepted for publication
+
   - title: Argument placement in Norwegian
     authors: Lundquist, Björn & <strong>Eirik Tengesdal</strong>
     year: 2022
