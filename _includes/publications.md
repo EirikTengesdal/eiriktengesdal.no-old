@@ -63,7 +63,7 @@
       {% endif %}
       {% if link.bibtex %}
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
-        <img class="bibtex-logo" src="assets/img/BibTeX_logo-light.svg" style="width: auto; height: 10px;"> BibTeX</a>
+        <img class="bibtex-logo" src="assets/img/BibTeX_logo-light.svg" style="width: auto; height: 12px;"> BibTeX</a>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
