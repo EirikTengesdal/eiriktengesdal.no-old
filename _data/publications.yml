@@ -40,7 +40,7 @@ main:
     authors: Garmann, Nina Gram, Pernille Hansen, Hanne Gram Simonsen, Elisabeth Holm, <strong>Eirik Tengesdal</strong>, Brechtje Post & Elinor Payne
     year: 2021
     journal_short: Front. Psychol.
-    journal: Frontiers in Psychology Vol. 12:688002, 1--13.
+    journal: Frontiers in Psychology Vol. 12:688002, 1–13.
     doi: https://doi.org/10.3389/fpsyg.2021.688002
     pdf: ./assets/files/fpsyg-12-688002.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
