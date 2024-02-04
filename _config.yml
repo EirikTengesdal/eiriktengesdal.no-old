@@ -26,7 +26,7 @@ linkedin: https://www.linkedin.com/in/eirik-tengesdal-7b8b6166
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon-light" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon-light.ico
+favicon_light: ./assets/img/favicon-light.ico
 favicon_dark: ./assets/img/favicon-dark.ico
 
 # Footnote
