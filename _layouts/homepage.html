@@ -98,6 +98,18 @@
         </a>
         {% endif %}
 
+        {% if site.cristin %}
+        <a style="margin: 0 5px 0 0" href="{{ site.cristin }}">
+          <i class="fa fa-database"></i>
+        </a>
+        {% endif %}
+
+        {% if site.researchgate %}
+        <a style="margin: 0 5px 0 0" href="{{ site.researchgate }}">
+          <i class="fab fa-researchgate">
+        </a>
+        {% endif %}
+
         {% if site.github_link %}
         <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
           <i class="fab fa-github"></i>
@@ -107,6 +119,12 @@
         {% if site.linkedin %}
         <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
           <i class="fab fa-linkedin"></i>
+        </a>
+        {% endif %}
+        
+        {% if site.orcid %}
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
+          <i class="ai ai-orcid-square ai-fw"></i>
         </a>
         {% endif %}
 
