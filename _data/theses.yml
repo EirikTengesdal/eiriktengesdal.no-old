@@ -1,0 +1,14 @@
+main:
+
+  - title: Plosivane i Bjerkreim. Ein synkron studie av preaspirasjon og klanglause lenes
+    authors: <strong>Tengesdal, Eirik</strong>
+    year: 2015
+    journal_short: DUO
+    journal:  "University of Oslo: I–173 (193 p.)."
+    duo: http://urn.nb.no/URN:NBN:no-53544
+    url: https://www.duo.uio.no/bitstream/handle/10852/49832/1/Tengesdal_master.pdf
+    pdf: ./assets/files/NorwegianArgPlacement_final_17.01.23.pdf
+    #code: https://github.com/MrGiovanni/ContinualLearning
+    #bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/Tengesdal_2015.jpg
+    #notes: Early Accept
