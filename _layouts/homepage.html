@@ -77,7 +77,6 @@
         <br>
         {% endif %}
         {% if site.email2 %}
-        <br>
         <a href="mailto:{{ site.email2 }}"><email>{{ site.email2 }}</email></a>
         {% endif %}
 
@@ -122,6 +121,13 @@
       {{ content }}
 
       <br>
+
+      {% if site.footnote %}
+      <div style="font: 12px/1.2 Crimson Pro, serif">
+        <br>
+        <a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a>
+      </div>
+      {% endif %}
 
       </section>
       <footer>
