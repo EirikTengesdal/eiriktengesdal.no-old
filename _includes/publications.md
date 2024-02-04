@@ -19,11 +19,17 @@
       <div class="title year"><a href="{{ link.pdf }}">{{ link.title }}</a>, {{ link.year }}</div>
       <!--<div class="year">{{ link.year }}</div>-->
       <div class="author">{{ link.authors }}</div>
+      {% if link.editors %} 
+      <div class="editors journal">{{ link.editors }}, <em>{{ link.journal }}</em></div>
+      {% endif %}
       <div class="journal"><em>{{ link.journal }}</em>
       </div>
     <div class="links">
       {% if link.anthology %} 
       <a href="{{ link.anthology }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Anthology</a>
+      {% endif %}
+      {% if link.url %} 
+      <a href="{{ link.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">URL</a>
       {% endif %}
       {% if link.doi %} 
       <a href="{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">DOI</a>
