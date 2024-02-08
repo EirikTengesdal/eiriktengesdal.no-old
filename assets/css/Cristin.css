@@ -7,7 +7,7 @@
     font-style: normal;
     font-display: block;
 }
-[class*='icon-']:before{
+[class*='Cristin-']:before{
 	display: inline-block;
    font-family: 'Cristin';
    font-style: normal;
@@ -17,4 +17,4 @@
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale
 }
-.icon-Cristin:before{content:'\0041';}
+.Cristin-Cristin:before{content:'\0041';}
