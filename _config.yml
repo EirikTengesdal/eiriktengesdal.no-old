@@ -21,11 +21,11 @@ description: Eirik Tengesdal is a Norwegian linguist. He is a tenured Assistant 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.no/citations?user=Dr2Q9hwAAAAJ&hl=en
 # cv_link: assets/files/curriculum_vitae.pdf
+cristin: https://app.cristin.no/persons/show.jsf?id=446915
 github_link: https://github.com/EirikTengesdal
+researchgate: https://www.researchgate.net/profile/Eirik-Tengesdal-2
 linkedin: https://www.linkedin.com/in/eirik-tengesdal-7b8b6166
 # twitter: https://twitter.com/
-cristin: https://app.cristin.no/persons/show.jsf?id=446915
-researchgate: https://www.researchgate.net/profile/Eirik-Tengesdal-2
 orcid: https://orcid.org/0000-0003-0599-8925
 
 # Images (e.g., your profile picture and your website's favicon) 
@@ -64,7 +64,7 @@ footnote_link: https://github.com/EirikTengesdal/EirikTengesdal.github.io
 
 # The following files will be removed from the generated website.
 exclude:
-  - Gemfile
-  - README.md
-  - LICENSE
   - CNAME
+  - Gemfile
+  - LICENSE
+  - README.md
