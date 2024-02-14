@@ -57,31 +57,31 @@
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
 
-        <h1><a href="https://EirikTengesdal.github.io/">{{ site.title }}</a></h1>
+        <h1><a href="https://EirikTengesdal.github.io/" title="https://EirikTengesdal.github.io/">{{ site.title }}</a></h1>
 
         {% if site.position %}
-        <a href="{{ site.affiliation_employee_link }}" rel="noopener"><autocolor><position style="font-size:1.10rem;">{{ site.position }}</position></autocolor></a><!--<sup>1</sup></position>-->
+        <a href="{{ site.affiliation_employee_link }}" title="{{ site.affiliation_employee_link }}" rel="noopener"><position style="font-size:1.10rem;">{{ site.position }}</position></a><!--<sup>1</sup></position>-->
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <a href="{{ site.affiliation_link }}" title="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
         {% if site.email %}
-        <a href="mailto:{{ site.email }}"><email>{{ site.email }}</email></a>
+        <a href="mailto:{{ site.email }}" title="mailto:{{ site.email }}"><email>{{ site.email }}</email></a>
         <br>
         {% endif %}
         {% if site.position2 %}
         <br>
-        <a href="{{ site.affiliation2_employee_link }}" rel="noopener"><autocolor><position style="font-size:1.10rem;">{{ site.position2 }}</position></autocolor></a>
+        <a href="{{ site.affiliation2_employee_link }}" title="{{ site.affiliation2_employee_link }}" rel="noopener"><position style="font-size:1.10rem;">{{ site.position2 }}</position></a>
         <br>
         {% endif %}
         {% if site.affiliation2 %}
-        <a href="{{ site.affiliation2_link }}" rel="noopener"><autocolor>{{ site.affiliation2 }}</autocolor></a>
+        <a href="{{ site.affiliation2_link }}" title="{{ site.affiliation2_link }}" rel="noopener"><autocolor>{{ site.affiliation2 }}</autocolor></a>
         <br>
         {% endif %}
         {% if site.email2 %}
-        <a href="mailto:{{ site.email2 }}"><email>{{ site.email2 }}</email></a>
+        <a href="mailto:{{ site.email2 }}" title="mailto:{{ site.email2 }}"><email>{{ site.email2 }}</email></a>
         {% endif %}
 
         <br>
@@ -149,7 +149,7 @@
       <br>
       <div style="font: 12px/1.2 Crimson Pro, serif">
       <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; the <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light Theme</a>.</div>
-      (<a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a>)
+      (<a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a>.)
       </div>
       {% endif %}
 
