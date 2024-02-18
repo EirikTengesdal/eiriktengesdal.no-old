@@ -378,7 +378,7 @@ section {
   width:650px;
   float:right;
   padding-top:1.2em;
-  padding-bottom:50px;
+  padding-bottom:0px;
 }
 
 small {
@@ -393,9 +393,8 @@ hr {
 }
 
 footer {
-  width:232px;
-  float:left;
-  position:fixed;
+  width: 100%;
+  position:unset;
   bottom:30px;
   -webkit-font-smoothing:subpixel-antialiased;
   text-align:center;
