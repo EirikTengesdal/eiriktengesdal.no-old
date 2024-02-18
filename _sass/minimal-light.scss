@@ -14,7 +14,7 @@
   line-height:2.5rem;
   margin-right:1rem}
 
-@media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}
+@media (prefers-color-scheme: dark) { .social-icons a {color: #3EB7F0 !important; }}
 
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
@@ -92,10 +92,10 @@
   margin:-1.8rem}
 
 .twitter span{
-  background-color:#4099ff}
+  background-color:#0077B5}
 
 .facebook span{
-  background-color:#4286f4}
+  background-color:#0077B5}
 
 .linkedin span{
   background-color:#0077B5}
@@ -133,16 +133,16 @@ email {
   z-index:10}
 
 .icon-button .icon-twitter{
-  color:#4099ff}
+  color:#0077B5}
 
 .icon-button .icon-facebook{
-  color:#4286f4}
+  color:#0077B5}
 
 .icon-button .icon-github{
   color:#000}
 
 .icon-button .cristin-cristin{
-  color:#4286f4}
+  color:#0077B5}
 
 .icon-button .icon-linkedin{
   color:#0077B5}
@@ -167,6 +167,7 @@ education {
     font-weight: 500;
     font-size: 115%;
   }
+
 papertitle {
     font-weight: 600;
     font-size: 100%;
@@ -196,51 +197,50 @@ papertitle {
 
 }
 
+.image {
+  border-radius: 0.35em;
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
 
-  .image {
-    border-radius: 0.35em;
-    border: 0;
-    display: inline-block;
-    position: relative;
-  }
+.image:before {
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  border-radius: 0.35em;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
 
-    .image:before {
-      -moz-transition: opacity 0.2s ease-in-out;
-      -webkit-transition: opacity 0.2s ease-in-out;
-      -ms-transition: opacity 0.2s ease-in-out;
-      transition: opacity 0.2s ease-in-out;
-      border-radius: 0.35em;
-      content: '';
-      display: block;
-      height: 100%;
-      left: 0;
-      opacity: 0.5;
-      position: absolute;
-      top: 0;
-      width: 100%;
-    }
+.image.avatar {
+  border-radius: 100%;
+}
 
-    .image.avatar {
-      border-radius: 100%;
-    }
+.image.avatar:before {
+  display: none;
+}
 
-      .image.avatar:before {
-        display: none;
-      }
+.image.avatar img {
+  border-radius: 100%;
+  width: 45%;
+  padding: 20px;
+  // border: 1px solid #ddd;
+  // padding: 3px;
+  // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
+}
 
-      .image.avatar img {
-        border-radius: 100%;
-        width: 45%;
-        padding: 20px;
-        // border: 1px solid #ddd;
-        // padding: 3px;
-        // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
-      }
-
-    #header .image.avatar {
-      margin: 0 0 1em 0;
-      width: 8.00em;
-    }
+#header .image.avatar {
+  margin: 0 0 1em 0;
+  width: 8.00em;
+}
 
 h3, h4, h5, h6 {
   font-weight: 600;
@@ -259,15 +259,13 @@ h2 {
   font-weight: 500;
   margin:2px 0px 15px;
   font-size: 157%;
+  scroll-margin-top: 60px;
 }
 
 @media (prefers-color-scheme: dark) {
-  h1, h3, h4, h5, h6 {
-    color:rgb(62, 183, 240);
-  }
-
-  h2 {
-    color:rgb(62, 183, 240);
+  h1, h2, h3, h4, h5, h6 {
+    // color:rgb(62, 183, 240);
+    color:#3EB7F0;
   }
 }
 
@@ -292,9 +290,19 @@ a:hover {
   color:#069;
 }
 
+a-h1 {
+  color:#043361;
+  text-decoration: none;
+}
+
+a-h1:hover {
+  color:#069;
+}
+
 @media (prefers-color-scheme: dark) {
-  a {
-    color:rgb(62, 183, 240);
+  a, a-h1 {
+    // color:rgb(62, 183, 240);
+    color:#3EB7F0;
   }
 }
 
@@ -305,8 +313,8 @@ a small {
   display:block;
 }
 
-a:hover small {
-  color:#777;
+a:hover, a-h1:hover small {
+  color:#069;
 }
 
 .wrapper {
@@ -356,13 +364,14 @@ th {
 }
 
 @media (prefers-color-scheme: dark) {
-  th {
-    color:rgb(62, 183, 240);
+  th, dt {
+    // color:rgb(62, 183, 240);
+    color:#3EB7F0;
   }
 
-  dt {
-    color:rgb(62, 183, 240);
-  }
+  // dt {
+  //   color:rgb(62, 183, 240);
+  // }
 }
 
 img {
@@ -374,11 +383,9 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-  padding-top:4.0em;
+  padding-top:5.5em;
   text-align:center
 }
-
-
 
 header ul {
   list-style:none;
@@ -448,7 +455,7 @@ header ul a strong {
 section {
   width:650px;
   float:right;
-  padding-top:4.0em;
+  padding-top:1.2em;
   padding-bottom:50px;
 }
 
@@ -482,7 +489,6 @@ footer {
     width:auto;
     margin:0;
   }
-
 
   header, section, footer {
     float:none;
@@ -541,9 +547,9 @@ footer {
     padding:0;
   }
 
-  header ul, header p.view {
+  // header ul, header p.view {
     
-  }
+  // }
 
   pre, code {
     word-wrap:normal;
