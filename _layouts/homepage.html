@@ -173,26 +173,21 @@
         </a>
         {% endif %}
       </div>
-      <br>
     </header>
     <section>
       {{ content }}
-
+    </section>
+  </div>
+  <!-- <div class="page__footer"> -->
+    <footer>
       {% if site.footnote %}
       <div style="font: 12px/1.2 Crimson Pro, serif">
       <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; the <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light Theme</a>.</div>
       (<a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a>.)
       </div>
       {% endif %}
-
-      <!-- {% if site.clustrmaps_id %}
-      <br>
-      <div style="width:100px; pointer-events: none;">
-      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d={{ site.clustrmaps_id }}"></script>
-      </div>
-      {% endif %} -->
-      </div>
-    </section>
+    </footer>
+  <!-- </div> -->
   <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 </body>
 
