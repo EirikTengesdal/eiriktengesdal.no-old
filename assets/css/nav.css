@@ -16,8 +16,9 @@
 }
 
 .topnav img {
-    margin-bottom: -16.5pt;
-    margin-top: -12.5pt;
+    padding-top: 3px;
+    /* margin-top: 1pt; */
+    margin-bottom: -4px;
     margin-left: 30%;
 }
 
@@ -142,7 +143,7 @@ screen and (max-width: 960px) {
     .topnav a.normal {
         color: white;
         float: none;
-        padding: 10px 9px;
+        padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
         display: block;
@@ -151,7 +152,7 @@ screen and (max-width: 960px) {
     .topnav a.icon {
         color: white;
         display: block;
-        padding: 10px 9px;
+        padding: 10px 10px;
         font-size: 17px;
         position: absolute;
         float: right;
@@ -163,7 +164,7 @@ screen and (max-width: 960px) {
     .topnav a.right {
         color: white;
         float: none;
-        padding: 10px 9px;
+        padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
         display: block;
