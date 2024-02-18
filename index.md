@@ -2,7 +2,8 @@
 layout: homepage
 ---
 
-## About Me
+<!-- <h1 id="about-me"></h1> -->
+<h2 id="about-me" style="margin: 40px 0px 10px;">About Me</h2>
 
 I am a tenured [Assistant Professor of Norwegian](https://www.oslomet.no/en/about/employee/eiten9710/) at the Department of Early Childhood Education (BLU) at OsloMet -- Oslo Metropolitan University. I am also a [Guest Researcher of Linguistics](https://www.hf.uio.no/iln/english/people/aca/scandinavian-languages/temporary/eirikten/) at the Department of Linguistics and Scandinavian Studies (ILN) at the University of Oslo (UiO).
 
@@ -26,7 +27,3 @@ In addition, I am currently a PhD Student at UiO specialising in Scandinavian li
 - **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020. --->
 
 {% include_relative _includes/publications.md %}
-
-<!---{% include_relative _includes/theses.md %}
-
-{% include_relative _includes/services.md %} --->
