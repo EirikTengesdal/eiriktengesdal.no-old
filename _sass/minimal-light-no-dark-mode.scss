@@ -70,10 +70,10 @@
   margin:-1.8rem}
 
 .twitter span{
-  background-color:#4099ff}
+  background-color:#0077B5}
 
 .facebook span{
-  background-color:#4286f4}
+  background-color:#0077B5}
 
 .linkedin span{
   background-color:#0077B5}
@@ -111,16 +111,16 @@ email {
   z-index:10}
 
 .icon-button .icon-twitter{
-  color:#4099ff}
+  color:#0077B5}
 
 .icon-button .icon-facebook{
-  color:#4286f4}
+  color:#0077B5}
 
 .icon-button .icon-github{
   color:#000}
 
 .icon-button .cristin-cristin{
-  color:#4286f4}
+  color:#0077B5}
 
 .icon-button .icon-linkedin{
   color:#0077B5}
@@ -235,6 +235,15 @@ a:hover {
   color:#069;
 }
 
+a-h1 {
+  color:#043361;
+  text-decoration: none;
+}
+
+a-h1:hover {
+  color:#03294e;
+}
+
 a small {
   font-size:11px;
   color:#777;
@@ -242,7 +251,7 @@ a small {
   display:block;
 }
 
-a:hover small {
+a:hover, a-h1:hover small {
   color:#777;
 }
 
@@ -301,11 +310,9 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-  padding-top:4.0em;
+  padding-top:5.5em;
   text-align:center
 }
-
-
 
 header ul {
   list-style:none;
@@ -369,7 +376,7 @@ header ul a strong {
 section {
   width:650px;
   float:right;
-  padding-top:4.0em;
+  padding-top:1.2em;
   padding-bottom:50px;
 }
 
@@ -403,7 +410,6 @@ footer {
     width:auto;
     margin:0;
   }
-
 
   header, section, footer {
     float:none;
@@ -462,9 +468,9 @@ footer {
     padding:0;
   }
 
-  header ul, header p.view {
+  // header ul, header p.view {
     
-  }
+  // }
 
   pre, code {
     word-wrap:normal;
