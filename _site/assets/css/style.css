@@ -3,10 +3,6 @@
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) { :root { --body-bg: #20212b; --body-color: #3EB7F0; --body-link-color: #3EB7F0; --body-link-color-hover: #069; --body-link-color-h1: #3EB7F0; --print-color: #3EB7F0; --strong-color: #eeeff0; --card-bg: #212529; --autocolor: #dadbdf; --lightonly-visibility: hidden; --darkonly-visibility: visible; --papertitle: #eeeff0; } }
-.navbar-toggler { color: var(--text-color); border-color: var(--text-color); }
-
-.navbar-toggler-icon { background-image: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#000000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>")); }
-
 .pub-row { display: flex; align-items: center; }
 
 .social-icons a { display: inline-block; height: 2.4rem; width: 2.4rem; background-color: transparent; color: var(--body-color) !important; border-radius: 100%; text-align: center; font-size: 1.15rem; line-height: 2.5rem; margin-right: 1rem; }
@@ -62,6 +58,8 @@ body { background-color: var(--body-bg); color: var(--autocolor); }
 h3, h4, h5, h6 { font-weight: 600; color: var(--body-color); margin: 0 0 20px; }
 
 h1 { font-weight: 500; color: var(--body-link-color-h1); margin: 0 0 20px; }
+
+.a-h1 { font-weight: 500; color: var(--body-link-color-h1); margin: 0 0 20px; }
 
 h2 { color: var(--body-color); font-weight: 500; margin: 2px 0px 15px; font-size: 157%; scroll-margin-top: 60px; }
 
