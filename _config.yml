@@ -29,10 +29,11 @@ linkedin: https://www.linkedin.com/in/eirik-tengesdal-7b8b6166
 # twitter: https://twitter.com/
 orcid: https://orcid.org/0000-0003-0599-8925
 stackoverflow: https://stackoverflow.com/users/17082981/eirik-tengesdal
+facebook: https://www.facebook.com/eirik.tengesdal/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon-light" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/20240219_000822.jpg
+profile_picture: ./assets/img/20240219_000822.jpg
 favicon_light: ./assets/img/favicon-light.ico
 favicon_dark: ./assets/img/favicon-dark.ico
 
