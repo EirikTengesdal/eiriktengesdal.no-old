@@ -54,29 +54,11 @@
   border-radius:3.6rem;
   margin:-1.8rem}
 
-.facebook span{
-  background-color:#0077B5}
-
-.linkedin span{
-  background-color:#0077B5}
-
-.cristin span{
-  background-color:#0077B5}
-
-.researchgate span{
-  background-color:#0077B5}
-
-.orcid span{
+.linkedin, .cristin, .researchgate, .orcid, .stackoverflow, .facebook, .twitter span{
   background-color:#0077B5}
 
 .github span{
   background-color:#000}
-
-.twitter span{
-  background-color:#0077B5}
-
-.stackoverflow span{
-  background-color:#0077B5}
 
 email {
     font-size: 14px;
@@ -98,26 +80,14 @@ email {
   width:3.6rem;
   z-index:10}
 
-.icon-button .icon-facebook{
+.icon-button .icon-linkedin, .icon-button .cristin-cristin, .icon-button .icon-stackoverflow, .icon-button .icon-twitter, .icon-button .icon-facebook{
   color:#0077B5}
 
 .icon-button .icon-github{
   color:#000}
 
-.icon-button .cristin-cristin{
-  color:#0077B5}
-
-.icon-button .icon-linkedin{
-  color:#0077B5}
-
-.icon-button .icon-twitter{
-  color:#0077B5}
-
-.icon-button .icon-stackoverflow{
-  color:#0077B5}
-
-.icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-github, .icon-button:hover .cristin-cristin, .icon-button:hover .icon-linkedin, .icon-button:hover .icon-stackoverflow {
-    color: white
+.icon-button:hover .icon-linkedin, .icon-button:hover .cristin-cristin, .icon-button:hover .icon-github, .icon-button:hover .icon-stackoverflow, .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook{
+  color: white
 }
 
 autocolor {
@@ -164,21 +134,21 @@ papertitle {
   width: 100%;
 }
 
-.image.avatar {
+.image.profile_picture {
   border-radius: 100%;
 }
 
-.image.avatar:before {
+.image.profile_picture:before {
   display: none;
 }
 
-.image.avatar img {
+.image.profile_picture img {
   border-radius: 100%;
   width: 50%;
   padding: 20px;
 }
 
-#header .image.avatar {
+#header .image.profile_picture {
   margin: 0 0 1em 0;
   width: 8.00em;
 }
@@ -427,7 +397,7 @@ footer {
     top:52px;
   }
 
-  .image.avatar img {
+  .image.profile_picture img {
       border-radius: 100%;
       width: 117px;
       padding:20px;
@@ -471,7 +441,7 @@ footer {
     width:33%;
   }
 
-  .image.avatar img {
+  .image.profile_picture img {
       border-radius: 100%;
       width: 95px;
       padding:20px;
