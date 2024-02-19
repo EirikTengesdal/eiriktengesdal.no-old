@@ -63,7 +63,7 @@
 </head>
 <body>
   <div class="topnav">
-    <a href="{{ site.url }}" rel="noopener"><img style="width: 40px; height: 40px;" src="{{ site.favicon_dark }}"></a>
+    <a href="{{ site.url }}" title="{{ site.url }}" rel="noopener"><img style="width: 40px; height: 40px;" src="{{ site.favicon_dark }}"></a>
     <div id="myLinks">
       {% include navigation.md %}
     </div>
@@ -72,9 +72,9 @@
   <div class="wrapper">
     <header>
       {% if site.profile_picture %}
-      <a class="image profile_picture"><img src="{{ site.profile_picture }}" alt="profile_picture" /></a>
+      <a class="image profile_picture" href="{{ site.url }}" title="{{ site.url }}" rel="noopener"><img src="{{ site.profile_picture }}" alt="profile_picture" /></a>
       {% endif %}
-      <h1><a-h1 href="{{ site.url }}" title="{{ site.url }}" rel="noopener">{{ site.title }}</a-h1></h1>
+      <h1><a class="a-h1" href="{{ site.url }}" title="{{ site.url }}" rel="noopener">{{ site.title }}</a></h1>
       {% if site.position %}
       <a href="{{ site.affiliation_employee_link }}" title="{{ site.affiliation_employee_link }}" rel="noopener"><position style="font-size:1.10rem;">{{ site.position }}</position></a>
       <br>
