@@ -4,6 +4,10 @@ main:
     url: ./#publications
     right: true
 
+  - title: "Academic Interests"
+    url: ./#academic_interests
+    # right: true
+
   - title: "About Me"
-    url: ./#about-me
+    url: ./#about_me
     # right: true
