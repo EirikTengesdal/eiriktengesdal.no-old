@@ -28,8 +28,6 @@
   <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/x-icon" />
   <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon_light }}" type="image/x-icon" />
   <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
-
-  <!--<link rel="stylesheet" href="assets/css/academicons.css"/>-->
   <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css
     integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
   <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css
@@ -50,7 +48,6 @@
   <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
   <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
   {% endif %}
-
   <!-- https://github.com/yaoyao-liu/yaoyao-liu.github.io/blob/main/_layouts/homepage.html -->
   <script>
     function myFunction() {
@@ -62,115 +59,71 @@
       }
     }
   </script>
-
 </head>
-
 <body>
   <div class="topnav">
     <a href="{{ site.url }}" rel="noopener"><img style="width: 40px; height: 40px;" src="{{ site.favicon_dark }}"></a>
     <div id="myLinks">
       {% include navigation.md %}
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
   </div>
-
   <div class="wrapper">
     <header>
       {% if site.avatar %}
       <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
       {% endif %}
-
       <h1><a-h1 href="{{ site.url }}" title="{{ site.url }}" rel="noopener">{{ site.title }}</a-h1></h1>
-
       {% if site.position %}
-      <a href="{{ site.affiliation_employee_link }}" title="{{ site.affiliation_employee_link }}" rel="noopener">
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
-      </a><!--<sup>1</sup></position>-->
+      <a href="{{ site.affiliation_employee_link }}" title="{{ site.affiliation_employee_link }}" rel="noopener"><position style="font-size:1.10rem;">{{ site.position }}</position></a>
       <br>
       {% endif %}
       {% if site.affiliation %}
-      <a href="{{ site.affiliation_link }}" title="{{ site.affiliation_link }}" rel="noopener">
-        <autocolor>{{ site.affiliation }}</autocolor>
-      </a>
+      <a href="{{ site.affiliation_link }}" title="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
       <br>
       {% endif %}
       {% if site.email %}
-      <a href="mailto:{{ site.email }}" title="mailto:{{ site.email }}" rel="noopener">
-        <email>{{ site.email }}</email>
-      </a>
+      <a href="mailto:{{ site.email }}" title="mailto:{{ site.email }}" rel="noopener"><email>{{ site.email }}</email></a>
       <br>
       {% endif %}
       {% if site.position2 %}
       <br>
-      <a href="{{ site.affiliation2_employee_link }}" title="{{ site.affiliation2_employee_link }}" rel="noopener">
-        <position style="font-size:1.10rem;">{{ site.position2 }}</position>
-      </a>
+      <a href="{{ site.affiliation2_employee_link }}" title="{{ site.affiliation2_employee_link }}" rel="noopener"><position style="font-size:1.10rem;">{{ site.position2 }}</position></a>
       <br>
       {% endif %}
       {% if site.affiliation2 %}
-      <a href="{{ site.affiliation2_link }}" title="{{ site.affiliation2_link }}" rel="noopener">
-        <autocolor>{{ site.affiliation2 }}</autocolor>
-      </a>
+      <a href="{{ site.affiliation2_link }}" title="{{ site.affiliation2_link }}" rel="noopener"><autocolor>{{ site.affiliation2 }}</autocolor></a>
       <br>
       {% endif %}
       {% if site.email2 %}
-      <a href="mailto:{{ site.email2 }}" title="mailto:{{ site.email2 }}" rel="noopener">
-        <email>{{ site.email2 }}</email>
-      </a>
+      <a href="mailto:{{ site.email2 }}" title="mailto:{{ site.email2 }}" rel="noopener"><email>{{ site.email2 }}</email></a>
       {% endif %}
-
       <br>
       <br>
       <div class="social-icons">
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}" title="Google Scholar" rel="noopener">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>
+        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}" title="Google Scholar" rel="noopener"><i class="ai ai-google-scholar" style="font-size:1.2rem"></i></a>
         {% endif %}
-
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}" title="CV" rel="noopener">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
+        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}" title="CV" rel="noopener"><i class="ai ai-cv" style="font-size:1.3rem;"></i></a>
         {% endif %}
-
         {% if site.cristin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cristin }}" title="Cristin" rel="noopener">
-          <i class="Cristin-Cristin" style="font-size:1.3rem"></i>
-        </a>
+        <a style="margin: 0 5px 0 0" href="{{ site.cristin }}" title="Cristin" rel="noopener"><i class="Cristin-Cristin" style="font-size:1.3rem"></i></a>
         {% endif %}
-
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}" title="GitHub" rel="noopener">
-          <i class="fab fa-github"></i>
-        </a>
+        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}" title="GitHub" rel="noopener"><i class="fab fa-github"></i></a>
         {% endif %}
-
         {% if site.researchgate %}
-        <a style="margin: 0 5px 0 0" href="{{ site.researchgate }}" title="ResearchGate" rel="noopener">
-          <i class="fab fa-fw fa-researchgate"></i>
-        </a>
-        <!-- <br> -->
+        <a style="margin: 0 5px 0 0" href="{{ site.researchgate }}" title="ResearchGate" rel="noopener"><i class="fab fa-fw fa-researchgate"></i></a>
         {% endif %}
-
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}" title="LinkedIn" rel="noopener">
-          <i class="fab fa-linkedin"></i>
-        </a>
+        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}" title="LinkedIn" rel="noopener"><i class="fab fa-linkedin"></i></a>
         {% endif %}
-
         {% if site.orcid %}
-        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}" title="ORCID" rel="noopener">
-          <i class="ai ai-orcid-square ai-fw"></i>
-        </a>
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}" title="ORCID" rel="noopener"><i class="ai ai-orcid-square ai-fw"></i></a>
         {% endif %}
-
         {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}" title="Twitter" rel="noopener">
-          <i class="fab fa-twitter"></i>
-        </a>
+        <a style="margin: 0 0 0 0" href="{{ site.twitter }}" title="Twitter" rel="noopener"><i class="fab fa-twitter"></i></a>
         {% endif %}
       </div>
     </header>
@@ -178,17 +131,14 @@
       {{ content }}
     </section>
   </div>
-  <!-- <div class="page__footer"> -->
     <footer>
       {% if site.footnote %}
-      <div style="font: 12px/1.2 Crimson Pro, serif">
+      <div style="font: 14px Crimson Pro, serif">
       <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; the <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light Theme</a>.</div>
       (<a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a>.)
       </div>
       {% endif %}
     </footer>
-  <!-- </div> -->
   <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 </body>
-
 </html>
