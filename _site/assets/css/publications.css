@@ -53,10 +53,6 @@ screen and (min-width: 480px) {
   }
 }
 
-/* .publications {
-  margin-top: 2rem;
-} */
-
 .publications h1 {
   color: var(--global-theme-color);
   font-size: 2rem;
