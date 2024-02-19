@@ -54,9 +54,6 @@
   border-radius:3.6rem;
   margin:-1.8rem}
 
-.twitter span{
-  background-color:#0077B5}
-
 .facebook span{
   background-color:#0077B5}
 
@@ -74,6 +71,12 @@
 
 .github span{
   background-color:#000}
+
+.twitter span{
+  background-color:#0077B5}
+
+.stackoverflow span{
+  background-color:#0077B5}
 
 email {
     font-size: 14px;
@@ -95,9 +98,6 @@ email {
   width:3.6rem;
   z-index:10}
 
-.icon-button .icon-twitter{
-  color:#0077B5}
-
 .icon-button .icon-facebook{
   color:#0077B5}
 
@@ -110,7 +110,13 @@ email {
 .icon-button .icon-linkedin{
   color:#0077B5}
 
-.icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-github, .icon-button:hover .cristin-cristin, .icon-button:hover .icon-linkedin {
+.icon-button .icon-twitter{
+  color:#0077B5}
+
+.icon-button .icon-stackoverflow{
+  color:#0077B5}
+
+.icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-github, .icon-button:hover .cristin-cristin, .icon-button:hover .icon-linkedin, .icon-button:hover .icon-stackoverflow {
     color: white
 }
 
