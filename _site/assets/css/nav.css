@@ -24,7 +24,8 @@
 /* Style the links inside the navigation bar */
 .topnav a.normal {
     float: right;
-    color: #f2f2f2;
+    /* color: #f2f2f2; */
+    color: var(--header-bg);
     text-align: center;
     padding: 10px 9px;
     text-decoration: none;
@@ -33,7 +34,8 @@
 
 /* Change the color of links on hover */
 .topnav a.normal:hover {
-    background-color: #ddd;
+    /* background-color: #ddd; */
+    background-color: var(--header-hover);
     color: black;
 }
 
@@ -156,3 +158,15 @@ screen and (max-width: 960px) {
         margin-right: 0;
     }
 }
+
+/* https://opensource.com/article/22/4/light-dark-mode-jekyll */
+/* .topnav-toggler {
+    @extend .topnav-toggler;
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+  
+.topnav-toggler-icon {
+    @extend .topnav-toggler-icon;
+    background-image: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#000000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"));
+} */
