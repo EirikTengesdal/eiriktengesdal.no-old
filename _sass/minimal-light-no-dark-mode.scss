@@ -17,21 +17,6 @@
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
     transform: scale(1.2)}
-    /*
-    .social-icons a:after {
-        content: '';
-        display: block;
-        margin: 0px;
-        height: 1px;
-        width: 0px;
-        background: transparent;
-        transition: width .5s ease, background-color .5s ease;
-      }
-      .social-icons a:hover:after {
-        width: 100%;
-        background: #337ab7;
-      }
-     */
 
 .icon-button{
   background-color:white;
@@ -129,7 +114,7 @@ email {
     color: white
 }
 
-autocolor{
+autocolor {
   color:#595959;
 }
 
@@ -150,50 +135,47 @@ papertitle {
     font-size: 100%;
   }
 
-  .image {
-    border-radius: 0.35em;
-    border: 0;
-    display: inline-block;
-    position: relative;
-  }
+.image {
+  border-radius: 0.35em;
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
 
-    .image:before {
-      -moz-transition: opacity 0.2s ease-in-out;
-      -webkit-transition: opacity 0.2s ease-in-out;
-      -ms-transition: opacity 0.2s ease-in-out;
-      transition: opacity 0.2s ease-in-out;
-      border-radius: 0.35em;
-      content: '';
-      display: block;
-      height: 100%;
-      left: 0;
-      opacity: 0.5;
-      position: absolute;
-      top: 0;
-      width: 100%;
-    }
+.image:before {
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  border-radius: 0.35em;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
 
-    .image.avatar {
-      border-radius: 100%;
-    }
+.image.avatar {
+  border-radius: 100%;
+}
 
-      .image.avatar:before {
-        display: none;
-      }
+.image.avatar:before {
+  display: none;
+}
 
-      .image.avatar img {
-        border-radius: 100%;
-        width: 45%;
-        padding: 20px;
-        // border: 1px solid #ddd;
-        // padding: 3px;
-        // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
-      }
+.image.avatar img {
+  border-radius: 100%;
+  width: 50%;
+  padding: 20px;
+}
 
-    #header .image.avatar {
-      margin: 0 0 1em 0;
-      width: 8.00em;
-    }
+#header .image.avatar {
+  margin: 0 0 1em 0;
+  width: 8.00em;
+}
 
 h3, h4, h5, h6 {
   font-weight: 600;
@@ -396,7 +378,6 @@ footer {
   width:100%;
   float:left;
   position:unset;
-  // bottom:30px;
   margin-bottom: 20px;
   -webkit-font-smoothing:subpixel-antialiased;
   text-align:center;
