@@ -1,7 +1,7 @@
 <h2 id="publications" style="margin: 40px 0px 10px;">Publications</h2>
+For a more extensive overview, view my <a href="{{ site.cristin }}" title="{{ site.cristin }}" rel="noopener">Cristin profile</a>.
 <div class="publications">
 <ol class="bibliography">
-
 {% for link in site.data.publications.main %}
 <li>
 <div class="pub-row">
