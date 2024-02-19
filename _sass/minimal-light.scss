@@ -19,40 +19,10 @@
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
     transform: scale(1.2)}
-    /*
-    .social-icons a:after {
-        content: '';
-        display: block;
-        margin: 0px;
-        height: 1px;
-        width: 0px;
-        background: transparent;
-        transition: width .5s ease, background-color .5s ease;
-      }
-      .social-icons a:hover:after {
-        width: 100%;
-        background: #337ab7;
-      }
-     */
 
 @media (prefers-color-scheme: dark) {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#20212b;
     color:black;
     transform: scale(1.2)} 
-    /*
-    .social-icons a:after {
-        content: '';
-        display: block;
-        margin: 0px;
-        height: 1px;
-        width: 0px;
-        background: transparent;
-        transition: width .5s ease, background-color .5s ease;
-      }
-    .social-icons a:hover:after {
-        width: 100%;
-        background: #a0b0ff;
-      }
-    */
 }
 
 .icon-button{
@@ -175,11 +145,11 @@ papertitle {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #20212b;
-        color: #dadbdf;
+      background-color: #20212b;
+      color: #dadbdf;
     }
 
-    autocolor{
+    autocolor {
       color:#dadbdf;
     }
 
@@ -194,7 +164,6 @@ papertitle {
     papertitle {
     color:#eeeff0;
     }
-
 }
 
 .image {
@@ -230,11 +199,8 @@ papertitle {
 
 .image.avatar img {
   border-radius: 100%;
-  width: 45%;
+  width: 50%;
   padding: 20px;
-  // border: 1px solid #ddd;
-  // padding: 3px;
-  // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
 }
 
 #header .image.avatar {
@@ -264,7 +230,6 @@ h2 {
 
 @media (prefers-color-scheme: dark) {
   h1, h2, h3, h4, h5, h6 {
-    // color:rgb(62, 183, 240);
     color:#3EB7F0;
   }
 }
@@ -301,7 +266,6 @@ a-h1:hover {
 
 @media (prefers-color-scheme: dark) {
   a, a-h1 {
-    // color:rgb(62, 183, 240);
     color:#3EB7F0;
   }
 }
@@ -365,13 +329,8 @@ th {
 
 @media (prefers-color-scheme: dark) {
   th, dt {
-    // color:rgb(62, 183, 240);
     color:#3EB7F0;
   }
-
-  // dt {
-  //   color:rgb(62, 183, 240);
-  // }
 }
 
 img {
@@ -474,7 +433,6 @@ footer {
   width:100%;
   float:left;
   position:unset;
-  // bottom:30px;
   margin-bottom: 20px;
   -webkit-font-smoothing:subpixel-antialiased;
   text-align:center;
