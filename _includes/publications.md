@@ -14,7 +14,15 @@ For a more extensive overview, view my <a href="{{ site.cristin }}" title="{{ si
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
-      <div class="title year"><a href="{{ link.pdf }}" title="{{ link.pdf }}" rel="noopener">{{ link.title }}</a>, {{ link.year }}</div>
+      {% if link.pdf %}
+        <div class="title year"><a href="{{ link.pdf }}" title="{{ link.pdf }}" rel="noopener">{{ link.title }}</a>, {{ link.year }}</div>
+        {% else %}
+        {% if link.doi %}
+            <div class="title year"><a href="{{ link.doi }}" title="{{ link.doi }}" rel="noopener">{{ link.title }}</a>, {{ link.year }}</div>
+        {% else %}
+            <div class="title year">{{ link.title }}, {{ link.year }}</div>
+		{% endif %}
+      {% endif %}
       <div class="author">{{ link.authors }}</div>
       <div class="journal"><em>{{ link.journal }}</em>
       </div>
