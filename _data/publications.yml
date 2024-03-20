@@ -4,7 +4,7 @@ main:
     authors: Lundquist, Björn, <strong>Eirik Tengesdal</strong>, Yulia Rodina, Nina Hagen Kaldhol, Valantis Fyndanis & Emel Türker
     year: 2024
     journal_short: TROLLing
-    journal: DataverseNO: The Tromsø Repository of Language and Linguistics (TROLLing)
+    journal: "DataverseNO: The Tromsø Repository of Language and Linguistics (TROLLing)"
     doi: https://doi.org/10.18710/HFIF8K
     bibtex: ./assets/files/LundquistEtAl_2024_TROLLing.bib
     image: ./assets/img/TROLLing_2024.jpg
