@@ -1,5 +1,14 @@
 main:
 
+  - title: Replication data for: Cross-linguistic effects in grammatical gender assignment and predictive processing in L1 Greek, L1 Russian, and L1 Turkish speakers of Norwegian as a second language
+    authors: Lundquist, Björn, <strong>Eirik Tengesdal</strong>, Yulia Rodina, Nina Hagen Kaldhol, Valantis Fyndanis & Emel Türker
+    year: 2024
+    journal_short: TROLLing
+    journal: DataverseNO: The Tromsø Repository of Language and Linguistics (TROLLing)
+    doi: https://doi.org/10.18710/HFIF8K
+    bibtex: ./assets/files/LundquistEtAl_2024_TROLLing.bib
+    image: ./assets/img/TROLLing_2024.jpg
+
   - title: Cross-linguistic effects in grammatical gender assignment and predictive processing in L1 Greek, L1 Russian, and L1 Turkish speakers of Norwegian as a second language
     authors: Johannessen, Janne Bondi, Björn Lundquist, Yulia Rodina, <strong>Eirik Tengesdal</strong>, Nina Hagen Kaldhol, Emel Türker & Valantis Fyndanis
     year: "To appear"
