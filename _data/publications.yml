@@ -1,5 +1,16 @@
 main:
 
+  - title: Cross-linguistic effects in grammatical gender assignment and predictive processing in L1 Greek, L1 Russian, and L1 Turkish speakers of Norwegian as a second language
+    authors: Johannessen, Janne Bondi, Björn Lundquist, Yulia Rodina, <strong>Eirik Tengesdal</strong>, Nina Hagen Kaldhol, Emel Türker & Valantis Fyndanis
+    year: 2024
+    journal_short: SLR
+    journal:  Second Language Research
+    doi: https://doi.org/10.1177/02676583241227709
+    pdf: ./assets/files/johannessen-et-al-2024-cross-linguistic-effects-in-grammatical-gender-assignment-and-predictive-processing-in-l1-greek.pdf
+    code: https://doi.org/10.18710/HFIF8K
+    bibtex: ./assets/files/JohannessenEtAl_2024_SLR.bib
+    image: ./assets/img/Johannessen-et-al_2024.jpg
+
   - title: "Replication data for: Cross-linguistic effects in grammatical gender assignment and predictive processing in L1 Greek, L1 Russian, and L1 Turkish speakers of Norwegian as a second language"
     authors: Lundquist, Björn, <strong>Eirik Tengesdal</strong>, Yulia Rodina, Nina Hagen Kaldhol, Valantis Fyndanis & Emel Türker
     year: 2024
@@ -8,14 +19,6 @@ main:
     doi: https://doi.org/10.18710/HFIF8K
     bibtex: ./assets/files/LundquistEtAl_2024_TROLLing.bib
     image: ./assets/img/TROLLing_2024.png
-
-  - title: Cross-linguistic effects in grammatical gender assignment and predictive processing in L1 Greek, L1 Russian, and L1 Turkish speakers of Norwegian as a second language
-    authors: Johannessen, Janne Bondi, Björn Lundquist, Yulia Rodina, <strong>Eirik Tengesdal</strong>, Nina Hagen Kaldhol, Emel Türker & Valantis Fyndanis
-    year: "To appear"
-    journal_short: SLR
-    journal:  Second Language Research
-    image: ./assets/img/Johannessen-et-al_2024.jpg
-    notes: Accepted for publication
 
   - title: Argument placement in Norwegian
     authors: Lundquist, Björn & <strong>Eirik Tengesdal</strong>
