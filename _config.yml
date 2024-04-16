@@ -69,6 +69,10 @@ footnote_link: https://github.com/EirikTengesdal/EirikTengesdal.github.io
 plugins:
   - jekyll-sitemap
 
+# Add custom collections folder "_statements"
+collections:
+  - statements
+
 # Include "assets".
 include:
   - ["assets/files/"]
