@@ -4,4 +4,6 @@
     {% else %}
     <a class="normal" href="{{ link.url }}">{{ link.title }}</a>
   {% endif %}
+  {% if link.markdown %}
+    {% include_relative {{ link.markdown }} %}
 {% endfor %}
