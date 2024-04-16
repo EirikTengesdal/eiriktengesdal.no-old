@@ -1,6 +1,5 @@
 ---
 layout: homepage
-title: Statements
 ---
 
 <h1 id="statements"></h1>
