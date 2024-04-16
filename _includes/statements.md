@@ -1,5 +1,6 @@
 ---
-layout: homepage
+title: Statements
+permalink: /statements/
 ---
 
 <h1 id="statements"></h1>
