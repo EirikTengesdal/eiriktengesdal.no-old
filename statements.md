@@ -2,4 +2,5 @@
 layout: homepage
 title: Statements
 ---
-Test
+
+{{ site.statement }}
