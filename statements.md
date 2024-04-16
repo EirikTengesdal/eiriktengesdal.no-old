@@ -10,6 +10,8 @@ permalink: /statements/
   {% for statement in site.statements %}
   <li>
     {{ statement.title }}
+  </li>
+  <li>
     {{ content }}
   </li>
   {% endfor %}
