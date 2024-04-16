@@ -2,6 +2,7 @@
 layout: homepage
 title: "Statements"
 permalink: /statements/
+nav: true
 ---
 
 <h2 id="statements" style="margin: 40px 0px 10px;">Statements</h2>
