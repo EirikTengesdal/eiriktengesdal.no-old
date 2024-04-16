@@ -12,5 +12,5 @@ main:
     url: ./#about_me
     # right: true
 
-  # - title: "Statements"
-  #   markdown: /_includes/statements.md
+  - title: "Statements"
+    markdown: statements.md
