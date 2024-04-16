@@ -3,7 +3,6 @@ layout: homepage
 title: Statements
 permalink: /statements/
 ---
-{% include base_path %}
 
 <h1 id="statements"></h1>
 
