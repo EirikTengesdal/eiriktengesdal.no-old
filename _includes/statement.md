@@ -1,6 +1,5 @@
 ---
-title: Statements
-permalink: /statements/
+title: Statement
 ---
 
 <h1 id="statements"></h1>
