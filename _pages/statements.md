@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homepage
 permalink: /statements/
 title: Statements
 description: This page contains my official hearing statements
