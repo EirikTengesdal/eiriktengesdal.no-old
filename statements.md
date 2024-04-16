@@ -6,6 +6,11 @@ permalink: /statements/
 <h1 id="statements"></h1>
 <h2 style="margin: 40px 0px 10px;">Statements</h2>
 
-{% for statement in site.statements %}
-  {{ include _statements/{{ statement }} }} <br>
-{% endfor %}
+<ul>
+  {% for statement in site.statements %}
+  <li>
+    {{ statement.title }}
+    {{ content }}
+  </li>
+  {% endfor %}
+</ul>
