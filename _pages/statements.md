@@ -15,9 +15,9 @@ Cf. https://github.com/alshedivat/al-folio/blob/master/_pages/teaching.md:
 For now, this page [= 'teaching'] is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 -->
 
-<!--
 {% include base_path %}
 
+<!--
 {% for post in site.statements reversed %}
   {% include archive-statements.html %}
 {% endfor %}
