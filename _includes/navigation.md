@@ -4,6 +4,4 @@
     {% else %}
     <a class="normal" href="{{ link.url }}">{{ link.title }}</a>
   {% endif %}
-  {% if link.markdown %}
-    [{{ link.title }}]({{ site.baseurl }}{% link {{ link.markdown}} %})
 {% endfor %}
