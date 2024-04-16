@@ -13,4 +13,4 @@ main:
     # right: true
 
   - title: "Statements"
-    markdown: /statements.md
+    markdown: _includes/statements.md
