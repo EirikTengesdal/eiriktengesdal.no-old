@@ -6,13 +6,6 @@ permalink: /statements/
 <h1 id="statements"></h1>
 <h2 style="margin: 40px 0px 10px;">Statements</h2>
 
-<ul>
-  {% for statement in site.statements %}
-  <li>
-    {{ statement.title }}
-  </li>
-  <li>
-    {{ content }}
-  </li>
-  {% endfor %}
-</ul>
+{% for statement in site.statements %}
+  <p>{{ statement.content | markdownify }}</p>
+{% endfor %}
