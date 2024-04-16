@@ -1,6 +1,7 @@
 ---
 layout: homepage
 title: Statements
+permalink: /statements/
 ---
 {% include base_path %}
 
