@@ -69,8 +69,8 @@ footnote_link: https://github.com/EirikTengesdal/EirikTengesdal.github.io
 plugins:
   - jekyll-sitemap
 
-include:
- - _pages
+# Include "_pages".
+include: ["_pages"]
 
 # The following files will be removed from the generated website.
 exclude:
