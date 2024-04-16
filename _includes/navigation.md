@@ -6,4 +6,5 @@
   {% endif %}
   {% if link.markdown %}
     {% include_relative {{ link.markdown }} %}
+  {% endif %}
 {% endfor %}
