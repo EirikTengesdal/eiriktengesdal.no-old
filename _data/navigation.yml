@@ -1,16 +1,17 @@
 main:
 
-  - title: "Publications"
-    url: ./#publications
+  - title: "Statements"
+    url: /statements
     right: true
 
+  - title: "Publications"
+    url: /#publications
+    # right: true
+
   - title: "Academic Interests"
-    url: ./#academic_interests
+    url: /#academic_interests
     # right: true
 
   - title: "About Me"
-    url: ./#about_me
+    url: /#about_me
     # right: true
-
-  - title: "Statements"
-    url: /statements
