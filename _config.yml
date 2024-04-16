@@ -71,7 +71,8 @@ plugins:
 
 # Add custom collections folder "_statements"
 collections:
-  - statements
+  statements:
+    output: true
 
 # Include "assets".
 include:
