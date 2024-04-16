@@ -69,9 +69,8 @@ footnote_link: https://github.com/EirikTengesdal/EirikTengesdal.github.io
 plugins:
   - jekyll-sitemap
 
-# Include "_pages" and "assets".
+# Include "assets".
 include:
-  - ["_pages"]
   - ["assets/files/"]
 
 # The following files will be removed from the generated website.
