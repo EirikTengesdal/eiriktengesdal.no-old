@@ -1,10 +1,3 @@
----
-layout: homepage
-title: "Statements"
-permalink: /statements/
-nav: true
----
-
 <h1 id="statements"></h1>
 
 <h2 style="margin: 40px 0px 10px;">Statements</h2>
