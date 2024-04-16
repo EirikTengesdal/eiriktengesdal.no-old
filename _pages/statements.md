@@ -1,5 +1,5 @@
 ---
-layout: homepage
+layout: page
 title: "Statements"
 permalink: /statements/
 nav: true
